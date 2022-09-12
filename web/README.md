@@ -1,3 +1,9 @@
+# Dependencias FRONTEND
+
+- [X] npm create vite@latest
+
+
+
 ## Descrição:
 
 Autor: Alisson de Andrade Araujo"
