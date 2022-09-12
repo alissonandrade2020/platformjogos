@@ -4,7 +4,11 @@
 
 -> node src/server.js  = imprimi no console hello world
 
+- [X]  npm i typescript -D
 
+- [X] npx tsc --init
+
+- [X] npm install @types/express -D
 
 ## Descrição:
 
