@@ -1,3 +1,9 @@
+## MOBILE
+
+- [X] expo init mobile
+
+
+
 ## Descrição:
 
 Autor: Alisson de Andrade Araujo"
