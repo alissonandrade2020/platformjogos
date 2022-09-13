@@ -16,8 +16,7 @@ function App() {
           </a>
         </h1>
         <h1 className="text-2xl items-left text-zinc-400 font-black">
-          <a
-            href="http://alissondeandradearaujo.000webhostapp.com/"
+          <a            href="http://alissondeandradearaujo.000webhostapp.com/"
             target="_blank"
           >
             Portfolio

@@ -2,7 +2,19 @@
 
 - [X] expo init mobile
 
+- [X] expo google fonts
 
+-> https://docs.expo.dev/guides/using-custom-fonts/#using-a-google-font
+
+* expo install expo-font @expo-google-fonts/inter
+
+- [X] ReactNavigation
+
+-> expo install react-native-safe-area-context
+
+- [X] Deixar gradient
+
+-> expo install expo-linear-gradient
 
 ## Descrição:
 
