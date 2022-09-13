@@ -1,8 +1,19 @@
 # Dependencias FRONTEND
 
 - [X] npm create vite@latest
+- [X] npm install -D tailwindcss postcss autoprefixer
 
+-> https://tailwindcss.com/docs/installation
 
+- [X] npx tailwindcss init -p
+
+- Pasta styles/main.css adicionar a base do tailwindcss
+
+- [X] npm install phosphor-react
+
+- [X] google-fonts 
+
+-> https://fonts.google.com/specimen/Inter
 
 ## Descrição:
 
