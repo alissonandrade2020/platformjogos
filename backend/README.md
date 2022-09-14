@@ -17,8 +17,15 @@
 -> npx prisma init
 -> npx prisma migrate dev
 -> npx prisma studio
+-> npx prisma migrate dev
 
+- create table ads
 
+- [X] npm i @prisma/client
+
+-> npx prisma generate
+
+- [X] npm i cors
 
 ## Descrição:
 
