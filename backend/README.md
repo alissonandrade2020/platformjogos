@@ -26,6 +26,7 @@
 -> npx prisma generate
 
 - [X] npm i cors
+- [X] npm i @types/cors -D
 
 ## Descrição:
 
