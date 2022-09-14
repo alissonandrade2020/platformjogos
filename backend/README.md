@@ -10,6 +10,16 @@
 
 - [X] npm install @types/express -D
 
+* Instalar DB
+
+- [X] npm install prisma -D
+
+-> npx prisma init
+-> npx prisma migrate dev
+-> npx prisma studio
+
+
+
 ## Descrição:
 
 Autor: Alisson de Andrade Araujo"
