@@ -1,0 +1,489 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v2022.5.1"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2022-09-14T21:39:06.970Z",
+				"time": 3.701,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/ads",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 404,
+					"statusText": "Not Found",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "143"
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 14 Sep 2022 21:16:33 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 143,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /ads</pre>\n</body>\n</html>\n"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.701,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Created - Ad"
+			},
+			{
+				"startedDateTime": "2022-09-14T21:39:06.970Z",
+				"time": 15.222,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/games/4fa0efcb-2dc7-4d8b-a187-1120b2e4fc70/ads",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "175"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"af-VOZf9cozK6iy9mVGfiemx3gbBWk\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 14 Sep 2022 21:35:36 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 175,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":\"330bcf24-a398-4630-9719-afc124a8e5a4\",\"name\":\"Alisson Andrade\",\"weekDays\":[\"0\",\"5\",\"6\"],\"useVoiceChannel\":true,\"yearsPlaying\":2,\"hourStart\":\"18:00\",\"hourEnd\":\"22:00\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 15.222,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "LIst - Ads by Games"
+			},
+			{
+				"startedDateTime": "2022-09-14T21:39:06.970Z",
+				"time": 21.541,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/games/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "968"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"3c8-+f58WocWfijmR88/DVL26GoPPG8\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 14 Sep 2022 21:10:53 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 968,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":\"1b15af7c-e9f4-4e82-8216-77190a884885\",\"title\":\"League of Legends\",\"bannerUrl\":\"https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg\",\"_count\":{\"ads\":1}},{\"id\":\"4fa0efcb-2dc7-4d8b-a187-1120b2e4fc70\",\"title\":\"CS:GO\",\"bannerUrl\":\"https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-188x250.jpg\",\"_count\":{\"ads\":1}},{\"id\":\"5a0ad9f2-83e0-4131-92e9-58ce36db1740\",\"title\":\"Dota 2\",\"bannerUrl\":\"https://static-cdn.jtvnw.net/ttv-boxart/29595-285x380.jpg\",\"_count\":{\"ads\":0}},{\"id\":\"dcef6f3a-8d2f-43df-8763-24c2cf647a11\",\"title\":\"World of Warcraft\",\"bannerUrl\":\"https://static-cdn.jtvnw.net/ttv-boxart/18122-285x380.jpg\",\"_count\":{\"ads\":0}},{\"id\":\"f53de9c9-aeeb-4ab6-8694-04378e218679\",\"title\":\"Apex Legends\",\"bannerUrl\":\"https://static-cdn.jtvnw.net/ttv-boxart/511224-285x380.jpg\",\"_count\":{\"ads\":0}},{\"id\":\"cd016da6-4306-445b-9264-d7f942068dc2\",\"title\":\"F1 2022\",\"bannerUrl\":\"https://static-cdn.jtvnw.net/ttv-boxart/489490035_IGDB-285x380.jpg\",\"_count\":{\"ads\":0}}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 21.541,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "LIst - Games"
+			},
+			{
+				"startedDateTime": "2022-09-14T21:39:06.970Z",
+				"time": 28.112000000000002,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/ads/330bcf24-a398-4630-9719-afc124a8e5a4/discord",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "45"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2d-nn5RNKXOlDya1V8qAvBiKRY3eHc\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 14 Sep 2022 21:37:43 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 45,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"discord\":\"Alisson de Andrade Araújo#1265\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 28.112000000000002,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Discord by Ad"
+			},
+			{
+				"startedDateTime": "2022-09-14T21:39:06.970Z",
+				"time": 2.353,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/perfil",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "1604"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"644-Ike9Q5s05a2tVOBRLXqAVzVxXWw\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 14 Sep 2022 21:05:36 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 1604,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[\" ------------------------------------ < NLW > -----------------------------------\",\" |                                                                              |\",\" |                                    BACKEND                                   |\",\" |                                                                              |\",\" --------------------------------------------------------------------------------\",\" |                                                                              |\",\" |                                API -> E-Sports                               |\",\" |                                                                              |\",\" --------------------------------------------------------------------------------\",\"                                                                                 \",\"Nome: Alisson de Andrade Araújo                                                  \",\"Formação: Análise e Desenvolvimento de Sistemas                                  \",\"Descrição: Desenvolvedor Back-end, Front-end e Mobile                            \",\"Site: http://alissondeandradearaujo.000webhostapp.com/                           \",\"CV: https://alissonandradesistema.000webhostapp.com/curriculo/                   \",\"Currículo Lattes: http://lattes.cnpq.br/7594653859194302/                        \",\"Github: https://github.com/alissonandrade2020                                    \",\"Rocketseat: https://app.rocketseat.com.br/me/alissondeandradearaujo              \",\"Linkedin: https://www.linkedin.com/in/alisson-de-andrade-ara%C3%BAjo-160224190/  \"]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 2.353,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "LIst - Perfil"
+			},
+			{
+				"startedDateTime": "2022-09-14T21:39:06.970Z",
+				"time": 9.003,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "638"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27e-/pUGWHddafQK/SjuPI4GKpJkT+w\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 14 Sep 2022 21:05:33 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 638,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[\" -------------------- < NLW > --------------------\",\" |                                               |\",\" |                   BACKEND ON                  |\",\" |                                               |\",\" -------------------------------------------------\",\" |                                               |\",\" |                 API -> E-Sports               |\",\" |                                               |\",\" -------------------------------------------------\",\" Nome: Alisson de Andrade Araújo                  \",\" DEV: Desenvolvedor Back-end, Front-end e Mobile  \",\" -------------------------------------------------\"]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 9.003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "API - ON"
+			}
+		]
+	}
+}
