@@ -15,6 +15,16 @@
 
 -> https://fonts.google.com/specimen/Inter
 
+- [X] npm install @radix-ui/react-dialog
+
+- [X] npm install @radix-ui/react-checkbox
+
+- [X] npm install @radix-ui/react-select -> melhorar desafio
+
+- [X] npm install @radix-ui/react-toggle-group
+
+- [x] npm install axios
+
 ## Descrição:
 
 Autor: Alisson de Andrade Araujo"

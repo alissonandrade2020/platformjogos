@@ -16,6 +16,16 @@
 
 -> expo install expo-linear-gradient
 
+- [X] navigation.org -> npm install @react-navigation/native
+
+- [X] expo install react-native-screens
+
+- [X] npm install @react-navigation/native-stack
+
+- [X] npm install --save phospor-react-native
+
+- [X] expo install react-native-svg
+
 ## Descrição:
 
 Autor: Alisson de Andrade Araujo"
